@@ -38,7 +38,7 @@ Desenvolver uma página profissional para apresentar minhas habilidades e evolu�
 
 Após publicação no GitHub Pages:
 
-https://ErickBuenoo.github.io/portfolio
+[https://erickbuenoo.github.io/Portifolio/](https://erickbuenoo.github.io/Portifolio/)
 
 ## Contato
 
