@@ -375,7 +375,7 @@ nav {
 
 .initials {
     font-size: 6.5rem;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 1;
     background: linear-gradient(135deg, var(--vl), var(--cy));
     -webkit-background-clip: text;
