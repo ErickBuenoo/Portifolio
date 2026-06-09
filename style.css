@@ -130,6 +130,7 @@ nav {
     font-size: 1.3rem;
     font-weight: 900;
     background: linear-gradient(135deg, var(--vl), var(--cy));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: -.03em;
@@ -232,6 +233,7 @@ nav {
 
 .gtext {
     background: linear-gradient(140deg, #fff 0%, var(--vl) 55%, var(--cy) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: block;
@@ -378,7 +380,7 @@ nav {
     font-weight: 800;
     line-height: 1;
     background: linear-gradient(135deg, var(--vl), var(--cy));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -506,7 +508,7 @@ nav {
     font-weight: 900;
     letter-spacing: -.04em;
     background: linear-gradient(135deg, var(--vl), var(--cy));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1;
 }
@@ -945,7 +947,7 @@ footer {
 
 footer strong {
     background: linear-gradient(135deg, var(--vl), var(--cy));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
 }
