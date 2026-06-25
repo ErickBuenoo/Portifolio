@@ -813,6 +813,126 @@ footer strong {
     -webkit-text-fill-color: transparent;
 }
 
+/* PROJECTS */
+.proj-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 24px;
+}
+
+.proj-card {
+    background: var(--glass);
+    border: 1px solid var(--bd);
+    border-radius: 20px;
+    overflow: hidden;
+    backdrop-filter: blur(12px);
+    transition: border-color .3s, transform .3s, box-shadow .3s;
+}
+
+.proj-card:hover {
+    border-color: rgba(167, 139, 250, .28);
+    transform: translateY(-5px);
+    box-shadow: 0 24px 48px rgba(0, 0, 0, .28);
+}
+
+.proj-img {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1000 / 480;
+    overflow: hidden;
+    border-bottom: 1px solid var(--bd);
+}
+
+.proj-img img {
+    position: static;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 0;
+    display: block;
+}
+
+.proj-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.proj-title-row h3 {
+    margin-bottom: 0;
+}
+
+.proj-status {
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(34, 197, 94, .1);
+    border: 1px solid rgba(34, 197, 94, .2);
+    color: #86efac;
+    font-size: .68rem;
+    font-weight: 700;
+    padding: 5px 13px;
+    border-radius: 100px;
+    flex-shrink: 0;
+}
+
+.proj-body {
+    padding: 26px 28px 30px;
+}
+
+.proj-body h3 {
+    font-size: 1.05rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.proj-body p {
+    color: var(--mu);
+    font-size: .87rem;
+    line-height: 1.78;
+    margin-bottom: 20px;
+}
+
+.proj-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    list-style: none;
+    margin-bottom: 22px;
+}
+
+.proj-tags li {
+    background: rgba(124, 58, 237, .1);
+    border: 1px solid rgba(167, 139, 250, .22);
+    color: var(--vl);
+    font-size: .73rem;
+    font-weight: 700;
+    padding: 5px 14px;
+    border-radius: 100px;
+}
+
+.proj-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn-sm {
+    padding: 10px 20px;
+    font-size: .82rem;
+}
+
+@media(max-width:960px) {
+    .proj-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ANIMATIONS */
 .ap {
     opacity: 0;

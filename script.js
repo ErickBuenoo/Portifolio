@@ -1,4 +1,3 @@
-
 // ── FOTO: tenta carregar do sistema de arquivos ──
 (async () => {
     const img = document.getElementById('profilePhoto');
