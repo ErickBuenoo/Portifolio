@@ -167,35 +167,6 @@ hgroup > p:not(.hero-role):not(.hero-badge) {
     margin-top: 30px;
 }
 
-/* foto */
-figure {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.photo-ring {
-    width: 100%;
-    max-width: 340px;
-    position: relative;
-}
-
-.ring-glow,
-.ring-spin,
-.ring-mask,
-.fc {
-    display: none;
-}
-
-#profilePhoto {
-    width: 100%;
-    aspect-ratio: 4 / 5;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 10px;
-    border: 1px solid var(--line-2);
-    display: block;
-}
-
 /* ── BOTÕES ── */
 .btn {
     display: inline-flex;
