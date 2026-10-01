@@ -103,11 +103,8 @@ nav a:hover {
 
 /* ── HERO ── */
 header {
-    display: grid;
-    grid-template-columns: 1.15fr .85fr;
-    gap: 56px;
-    align-items: center;
-    padding: 84px 0 72px;
+    padding: 96px 0 84px;
+    max-width: 660px;
 }
 
 hgroup {
@@ -159,8 +156,8 @@ h1 {
 
 hgroup > p:not(.hero-role):not(.hero-badge) {
     color: var(--muted);
-    font-size: 1.02rem;
-    max-width: 48ch;
+    font-size: 1.05rem;
+    max-width: 56ch;
 }
 
 .hero-actions {
@@ -807,14 +804,6 @@ footer strong {
         padding: 56px 0;
     }
 
-    .photo-ring {
-        max-width: 300px;
-        margin: 0 auto;
-    }
-
-    figure {
-        justify-content: center;
-    }
 
     .cards,
     .skills-wrap {
