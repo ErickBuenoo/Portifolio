@@ -24,6 +24,147 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Dados estruturados (schema.org) -->
+    <script type="application/ld+json">
+{
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "WebSite",
+                  "@id": "https://erickbuenoo.github.io/Portifolio/#website",
+                  "url": "https://erickbuenoo.github.io/Portifolio/",
+                  "name": "Erick Bueno | Portfólio",
+                  "description": "Portfólio de Erick Bueno de Oliveira: Assistente Fiscal e estudante de Engenharia de Software na UCSC. Projetos que unem o universo fiscal à tecnologia.",
+                  "inLanguage": "pt-BR",
+                  "publisher": {
+                        "@id": "#person"
+                  },
+                  "author": {
+                        "@id": "#person"
+                  }
+            },
+            {
+                  "@type": "Person",
+                  "@id": "#person",
+                  "name": "Erick Bueno de Oliveira",
+                  "alternateName": "Erick Bueno",
+                  "url": "https://erickbuenoo.github.io/Portifolio/",
+                  "email": "mailto:erickbuenodeoliveira@gmail.com",
+                  "jobTitle": "Assistente Fiscal",
+                  "worksFor": {
+                        "@id": "#rede-m7"
+                  },
+                  "alumniOf": {
+                        "@id": "#ucsc"
+                  },
+                  "hasOccupation": {
+                        "@type": "Occupation",
+                        "name": "Assistente Fiscal",
+                        "occupationLocation": {
+                              "@type": "Place",
+                              "name": "Corupá, SC, Brasil"
+                        }
+                  },
+                  "knowsAbout": [
+                        "Notas Fiscais Eletrônicas (NF-e)",
+                        "CFOP e natureza de operação",
+                        "ICMS",
+                        "Plano de Contas",
+                        "Relatórios fiscais",
+                        "Python",
+                        "FastAPI",
+                        "Flask",
+                        "JavaScript",
+                        "C++",
+                        "SQL",
+                        "Git",
+                        "Microsoft Excel"
+                  ],
+                  "knowsLanguage": "pt-BR",
+                  "sameAs": [
+                        "https://www.linkedin.com/in/erick-bueno-de-oliveira-14b11a362",
+                        "https://github.com/ErickBuenoo",
+                        "https://www.instagram.com/erickbueno.o"
+                  ],
+                  "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Jaraguá do Sul",
+                        "addressRegion": "SC",
+                        "addressCountry": "BR"
+                  }
+            },
+            {
+                  "@type": "Organization",
+                  "@id": "#rede-m7",
+                  "name": "Rede M7",
+                  "description": "Empresa onde Erick Bueno atua como Assistente Fiscal",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Corupá",
+                        "addressRegion": "SC",
+                        "addressCountry": "BR"
+                  }
+            },
+            {
+                  "@type": "CollegeOrUniversity",
+                  "@id": "#ucsc",
+                  "name": "Universidade Católica de Santa Catarina (UCSC)",
+                  "url": "https://www.ucsc.br/",
+                  "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Jaraguá do Sul",
+                        "addressRegion": "SC",
+                        "addressCountry": "BR"
+                  }
+            },
+            {
+                  "@type": "SoftwareApplication",
+                  "@id": "#projeto-conciliador",
+                  "name": "Conciliador de Plano de Contas",
+                  "description": "Ferramenta full-stack que automatiza a conferência de lançamentos contábeis contra o plano de contas, identificando divergências como contas inexistentes, sintéticas, inativas ou com valores inválidos e gerando um relatório visual com indicadores de conformidade.",
+                  "applicationCategory": "BusinessApplication",
+                  "operatingSystem": "Web",
+                  "programmingLanguage": "Python",
+                  "url": "https://github.com/ErickBuenoo/Conciliador-de-Plano-de-Contas",
+                  "author": {
+                        "@id": "#person"
+                  },
+                  "creator": {
+                        "@id": "#person"
+                  },
+                  "isAccessibleForFree": true,
+                  "offers": {
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "BRL"
+                  }
+            },
+            {
+                  "@type": "SoftwareApplication",
+                  "@id": "#projeto-api",
+                  "name": "API de Gestão de Clientes e Notas Fiscais",
+                  "description": "API REST com autenticação JWT para cadastro de clientes e emissão/controle de notas fiscais. Modelagem reflete prática contábil real: notas fiscais nunca são deletadas, apenas canceladas, preservando o histórico. Documentação interativa e 19 testes automatizados cobrindo as regras de negócio.",
+                  "applicationCategory": "DeveloperApplication",
+                  "operatingSystem": "Web",
+                  "programmingLanguage": "Python",
+                  "url": "https://github.com/ErickBuenoo/API-Clientes",
+                  "author": {
+                        "@id": "#person"
+                  },
+                  "creator": {
+                        "@id": "#person"
+                  },
+                  "isAccessibleForFree": true,
+                  "offers": {
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "BRL"
+                  }
+            }
+      ]
+}
+    </script>
 </head>
 
 <body>
