@@ -10,10 +10,10 @@
         fallback.className = 'photo-fallback';
         fallback.style.cssText = `
         position:absolute;inset:4px;border-radius:50%;z-index:2;
-        background:linear-gradient(160deg,#1a1232,#0c0c22);
+        background:#FFFFFF;border:1px solid #D3D0C6;
         display:flex;align-items:center;justify-content:center;
         `;
-        fallback.innerHTML = `<span style="font-size:5.5rem;font-weight:900;line-height:1;background:linear-gradient(135deg,#A78BFA,#38BDF8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">EB</span>`;
+        fallback.innerHTML = `<span style="font-size:5.5rem;font-weight:900;line-height:1;color:#191A1E;font-family:Georgia,serif;">EB</span>`;
         frame.appendChild(fallback);
     };
     if (img.complete && img.naturalWidth === 0) showFallback();
