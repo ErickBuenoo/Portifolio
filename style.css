@@ -773,6 +773,16 @@ h2 {
     background: rgba(225, 48, 108, .16);
 }
 
+.c-mx {
+    background: rgba(34, 197, 94, .14);
+}
+
+.contact-ctas {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
 #contato strong {
     display: block;
     font-size: .91rem;
