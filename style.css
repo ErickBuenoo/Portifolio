@@ -1027,3 +1027,78 @@ footer strong {
         text-align: center;
     }
 }
+/* ── ÍCONES VETORIAIS (Lucide / marcas) ── */
+.ic {
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    vertical-align: -0.12em;
+}
+
+.btn .ic {
+    width: 18px;
+    height: 18px;
+}
+
+.card-icon .ic {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+.edu-icon .ic {
+    width: 38px;
+    height: 38px;
+    color: #fff;
+}
+
+.fc em {
+    color: var(--vl);
+}
+
+.fc em .ic {
+    width: 22px;
+    height: 22px;
+}
+
+.skill-list em {
+    color: var(--vl);
+}
+
+.skill-list em .ic {
+    width: 19px;
+    height: 19px;
+}
+
+.soft-list li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.soft-list .ic {
+    width: 15px;
+    height: 15px;
+    color: var(--cy);
+}
+
+.c-icon .ic {
+    width: 22px;
+    height: 22px;
+}
+
+.c-li .ic {
+    color: #6ea8e8;
+}
+
+.c-gh .ic {
+    color: #e5e7eb;
+}
+
+.c-ig .ic {
+    color: #e879a9;
+}
+
+.c-mx .ic {
+    color: #4ade80;
+}
